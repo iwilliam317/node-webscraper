@@ -7,7 +7,8 @@ request('http://www.imdb.com/chart/moviemeter', (error, response, body) => {
   let $ = cheerio.load(body);
 
   $('.lister-list tr').each(function(){
-    let title = $(this).find('.titleColumn a').text().trim();
-    console.log(title);
+    let title = $(this).find('.titleColumn a').text();
+    let rating = $(this).find('.imdbRating strong').text();
+    console.log(title, rating);
   });
 });
