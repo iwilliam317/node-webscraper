@@ -12,7 +12,7 @@ request('http://www.imdb.com/chart/moviemeter', (error, response, body) => {
     let rating = $(this).find('.imdbRating strong').text().trim();
     // console.log(title, rating);
 
-    fs.appendFile('imdb.txt', `Título: ${title} | Nota: ${rating} \n`, error => {
+    fs.appendFile('./movies/imdb.txt', `Título: ${title} | Nota: ${rating} \n`, error => {
       if (error) throw error;      
     });
   });

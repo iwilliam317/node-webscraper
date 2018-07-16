@@ -35,8 +35,8 @@ Título: Jurassic Park: Parque dos Dinossauros | Nota: 8.1
 Título: Rampage: Destruição Total | Nota: 6.2 
 Título: Han Solo: Uma História Star Wars | Nota: 7.1 
 Título: A Noite do Jogo | Nota: 7.0 
-Título: Os Incríveis | Nota: 8.0 
 Título: It: A Coisa, Capítulo 2 | Nota:  
+Título: Os Incríveis | Nota: 8.0 
 Título: Sicario: Terra de Ninguém | Nota: 7.6 
 Título: Siberia | Nota: 4.8 
 Título: O Mistério do Relógio na Parede | Nota:  
@@ -64,7 +64,6 @@ Título: Extinction | Nota:
 Título: Star Wars: Os Últimos Jedi | Nota: 7.3 
 Título: Mamma Mia! O Filme | Nota: 6.4 
 Título: Don't Worry, He Won't Get Far on Foot | Nota: 6.9 
-Título: Mile 22 | Nota:  
 Título: Com Amor, Simon | Nota: 7.8 
 Título: Círculo de Fogo: A Revolta | Nota: 5.7 
 Título: O Culto | Nota: 6.6 
@@ -98,3 +97,4 @@ Título: Harry Potter e a Pedra Filosofal | Nota: 7.6
 Título: Tempestade: Planeta em Fúria | Nota: 5.3 
 Título: O Protetor 2 | Nota:  
 Título: Croc-Blanc | Nota: 6.9 
+Título: O Mundo Perdido: Jurassic Park | Nota: 6.5 
