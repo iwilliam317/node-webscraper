@@ -5,8 +5,11 @@ const options = {
     method: 'GET',
     headers: {'user-agent': 'node.js'}
 };
+
 request(options, (error, response, body) => {
   if (error) throw error;
 
-  console.log(body);
+  const repositories = JSON.parse(body);
+
+  repositories.forEach(repository => console.log(repository.name));
 });
