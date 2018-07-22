@@ -13,7 +13,7 @@ request(options, (error, response, body) => {
   const repositories = JSON.parse(body);
 
   repositories.forEach(repository => {
-    fs.appendFile('./repositories/github.txt', `Repository: ${repository.name} \n`, error => {
+    fs.appendFile('./repositories/github.txt', `${repository.name} - ${repository.language} \n`, error => {
       if (error) throw error;      
     })
   });
