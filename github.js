@@ -1,4 +1,5 @@
 const request = require('request');
+const fs = require('fs');
 
 const options = {
     uri: 'https://api.github.com/users/iwilliam317/repos',
@@ -11,5 +12,9 @@ request(options, (error, response, body) => {
 
   const repositories = JSON.parse(body);
 
-  repositories.forEach(repository => console.log(repository.name));
+  repositories.forEach(repository => {
+    fs.appendFile('./repositories/github.txt', `Repository: ${repository.name} \n`, error => {
+      if (error) throw error;      
+    })
+  });
 });
